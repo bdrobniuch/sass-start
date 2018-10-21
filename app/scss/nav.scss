@@ -1,0 +1,28 @@
+@import "zmienne";
+
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        
+        .items {
+            display: inline-block;
+            
+            a {
+                
+                color: $base-color;
+                &:hover {
+                    color: greenyellow;
+                }
+            }
+        }
+    }
+}
+
